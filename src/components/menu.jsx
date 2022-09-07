@@ -4,7 +4,7 @@ import './menu.css';
 import MenuItem from './menuItem'
 
 function Menu() {
-  const link = '#/login';
+  const link = '/#/login';
   return (
     <div className='menuContainer'>
       <div className='menuItemsContainer'>
