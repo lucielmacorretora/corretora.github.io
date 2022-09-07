@@ -1,0 +1,28 @@
+.carouselContainer{
+  max-height: 300px;
+  overflow: hidden;
+  width: 100%;
+  background-color: var(--carouselBackground);
+  display: flex;
+  vertical-align: middle;
+  line-height: 300px;
+}
+
+.imgContainer{
+  max-width: 400px;
+  margin: auto;
+  display: inline-block;
+}
+
+.carouselItem{
+  display: inline-block;
+  width: 100%;
+}
+
+.arrow{
+  color: var(--arrow);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  display: inline-block;
+  font-size: 5rem;
+}

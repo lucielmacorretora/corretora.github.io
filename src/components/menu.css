@@ -1,0 +1,21 @@
+.menuItemsContainer{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 4rem;
+}
+
+.menuContainer{
+  background-color: var(--menuBackground);
+  width: 100%;
+}
+
+.menuItemContainer{
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.menuItem{
+  padding: 4rem;
+}

@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import HtmlRoutes from "./htmlRoutes";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>FIRST TEst</h1>
+  return(
+    <div>
+      <HtmlRoutes />
     </div>
   );
 }
