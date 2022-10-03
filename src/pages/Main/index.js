@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Carousel from '../../components/carousel'
 import Menu from '../../components/menu';
 
+import "./index.css";
 
 function Main(){
     const [imgs, setimgs] = useState([
@@ -25,8 +26,10 @@ function Main(){
     return (
         <div>
           <Menu />
-          <h1>TEST</h1>
-          <Carousel imgs={imgs} />
+          <div className='indexContainer'>
+            <Carousel imgs={imgs} />
+            <h1>TEST</h1>
+          </div>
         </div>
     );
 }

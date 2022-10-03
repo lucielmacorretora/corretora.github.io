@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Duru+Sans&display=swap');
+
+.menuItem{
+    font-family: 'Duru Sans', sans-serif;
+    color: var(--menuTextColor);
+    font-weight: bolder;
+    font-size: clamp(2rem, 3vw, 2.7rem);
+}
+
+.fa-bars{
+    color: var(--menuTextColor);
+    font-size: 2.7rem;
+}
+
+h1{
+    font-family: 'Alkalami', serif;
+    font-weight: bolder;
+    font-size: clamp(2rem, 3vw, 2.7rem);
+}
+
+h2{
+    font-family: 'Duru Sans', sans-serif;
+    font-weight: bolder;
+    font-size: clamp(2rem, 3vw, 2.4rem);
+}

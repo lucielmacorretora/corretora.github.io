@@ -38,16 +38,19 @@ function Carousel({ imgs }) {
     setCurentImgID(curentImgID - 1);
   }
 
-  //timer();
   return (
     <div className='carouselContainer'>
+      <div>
       <i onClick={backImg}>
         <span className="glyphicon glyphicon-arrow-left arrow"></span>
       </i>
+      </div>
       <CarouselItem imgLink={imgs[curentImgID].link} alt={imgs[curentImgID].alt} />
+      <div>
       <i onClick={nextImg}>
         <span className="glyphicon glyphicon-arrow-right arrow"></span>
       </i>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,47 @@
+.selectedImageList{
+   overflow: scroll; 
+   display: grid;
+   grid-template-columns: repeat(2, minmax(200px, 1fr));
+   justify-content: center;
+   max-height: 300px;
+   max-width: 100%;
+}
+
+.adminContainer{
+    padding: 1rem;
+    margin-top: 7rem;
+}
+
+.admImg{
+    display: inline-block;    
+    margin: 0 auto;
+}
+
+.admImgContainer{
+    display: inline-block;
+    border-style: solid;
+    padding: 0.6rem;
+    margin-right: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+.updateProductsHolder{
+    vertical-align: top;
+    overflow: scroll;
+    width: 100%;
+    max-height: 400px;
+    display: grid;
+    gap: 1em;
+}
+
+#saveProductsHolder{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+}
+
+@media only screen and (max-width: 700px) {
+    .selectedImageList{
+        grid-template-columns: 1fr;
+    }
+}

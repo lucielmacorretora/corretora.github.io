@@ -1,0 +1,21 @@
+
+.updateProductContainer{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1em;
+    border-style: solid;
+    justify-items: center;
+    align-items: center;
+}
+
+.updateProductContainer:nth-child(even) {
+    background-color: var(--listEvenBackground);
+}
+
+.updateProductElement{
+    border-right: solid;
+    padding: 1rem;
+    border-top: solid;
+    height: 100%;
+    width: 100%;
+}

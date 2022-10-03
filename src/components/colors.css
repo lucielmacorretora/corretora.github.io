@@ -1,6 +1,9 @@
 :root {
   --carouselBackground: #555;
-  --websiteBackground: #aaa;
-  --arrow: #aa0000;
-  --menuBackground: #999;
+  --websiteBackgroundTop: #0EB8B8;
+  --websiteBackgroundBottom: #fff;
+  --arrow: #fff;
+  --menuBackground: #5ce1e6;
+  --listEvenBackground: #999;
+  --menuTextColor: #000;
 }
