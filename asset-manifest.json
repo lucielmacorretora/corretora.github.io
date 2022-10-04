@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/corretora.github.io/static/css/main.18196c7f.css",
+    "main.css": "/corretora.github.io/static/css/main.50d4fe61.css",
     "main.js": "/corretora.github.io/static/js/main.71615e4c.js",
     "static/js/787.45edc2fa.chunk.js": "/corretora.github.io/static/js/787.45edc2fa.chunk.js",
     "static/media/logo.jpg": "/corretora.github.io/static/media/logo.3256814f15f0496c5117.jpg",
     "index.html": "/corretora.github.io/index.html",
-    "main.18196c7f.css.map": "/corretora.github.io/static/css/main.18196c7f.css.map",
+    "main.50d4fe61.css.map": "/corretora.github.io/static/css/main.50d4fe61.css.map",
     "main.71615e4c.js.map": "/corretora.github.io/static/js/main.71615e4c.js.map",
     "787.45edc2fa.chunk.js.map": "/corretora.github.io/static/js/787.45edc2fa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18196c7f.css",
+    "static/css/main.50d4fe61.css",
     "static/js/main.71615e4c.js"
   ]
 }
